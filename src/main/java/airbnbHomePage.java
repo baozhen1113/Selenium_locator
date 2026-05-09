@@ -60,6 +60,7 @@ public class airbnbHomePage {
         //locator14
         By byTextTime = By.xpath("(//div[contains(@class,'grid')]/a)[3]//p");
 
+      chromeDriver.quit();
 
     }
 }
