@@ -21,7 +21,10 @@ public class amazonSearchResultPage {
         WebDriverWait wait = new WebDriverWait(chromeDriver, Duration.ofSeconds(30));
 
         //locator01
+        By byImgThirdCard = By.xpath("//div[@data-component-type='s-search-result'][3]//img");
+
         //locator02
+        By byTxtPrePrice = By.xpath("");
         //locator03
 
         //locator04
@@ -36,21 +39,25 @@ public class amazonSearchResultPage {
         //locator05
         By byCard = By.id("nav-cart-count-container");
 
-        //locator06
-        By bySize = By.id("a-autoid-66-announce");
+        //locator06 -- notfound
 
         //locator07
+        By bySize = By.id("a-autoid-66-announce");
         //locator08
         //locator09
+
         //locator10
-        //locator11
+        By byTxtNameFirstCard = By.xpath("//div[@data-component-type='s-search-result'][1]//h2//span[contains(.,'adidas')]");
+
+        //locator11 -- not found
+
         //locator12
         By bylblCheckGenderMan = By.xpath("//div[@id='gender']//a[.//span[text()='Men']]//label");
 
         //locator13
         By byTxtResultSearch = By.xpath("//h1[@data-csa-c-content-id='desktop/1/0/default/default']//h2[contains(@class,'a-size-base')]//span[1]");
 
-        //locator14
+        //locator14 -- not found
 
         chromeDriver.quit();
     }
