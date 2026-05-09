@@ -12,7 +12,12 @@ public class amazonSearchResultPage {
         chromeDriver.manage().window().maximize(); // maximize windows
         chromeDriver.get("https://www.amazon.com/"); // home page
 
+       WebDriverWait wait = new WebDriverWait(chromeDriver, Duration.ofSeconds(30));
 
-//        WebDriverWait wait = new WebDriverWait(chromeDriver, Duration.ofSeconds(30));
+        //locator01
+        //locator02
+        //locator03
+        //locator04
+        
     }
 }
